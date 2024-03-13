@@ -1,0 +1,7 @@
+    axios
+      .put(`http://localhost:3001/edittask/${todoId}`)
+      .then((result) => {
+        console.log("jjjj");
+        location.reload();
+      })
+      .catch((error) => console.log(error));
